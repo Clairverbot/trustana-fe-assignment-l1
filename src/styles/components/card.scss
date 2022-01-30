@@ -1,0 +1,22 @@
+.card {
+  border-radius: 4px;
+  border: 1px solid #dddddd;
+  width: 238px;
+  box-shadow: 0px 2px 13px rgba(187, 199, 220, 0.34);
+  &__image {
+    background: linear-gradient(138.97deg, #f2f5fc 0%, #f1f1fa 151.78%);
+    height: 238px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__body {
+    padding: 18px;
+    &__title {
+      margin-bottom: 3px;
+    }
+    &__info {
+      color: $grey-1;
+    }
+  }
+}

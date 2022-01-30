@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Manrope";
-  src: url("../fonts/Manrope-Medium.ttf") format("truetype");
+  src: url("../assets/fonts/Manrope-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
   font-display: block;
@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: "Manrope";
-  src: url("../fonts/Manrope-SemiBold.ttf") format("truetype");
+  src: url("../assets/fonts/Manrope-SemiBold.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
   font-display: block;
@@ -16,31 +16,28 @@
 
 @font-face {
   font-family: "Manrope";
-  src: url("../fonts/Manrope-Bold.ttf") format("truetype");
+  src: url("../assets/fonts/Manrope-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
   font-display: block;
 }
 
 h4 {
-  font: 1.375rem "Manrope" 500;
-  color: $black;
+  font: 700 1.375rem "Manrope";
+  color: $black-1;
   line-height: 2rem;
   letter-spacing: 0.0024em;
 }
 
 h6 {
-  font: 1.125rem "Manrope" 600;
-  color: $black;
+  font: 600 1.125rem "Manrope";
+  color: $black-2;
   line-height: 1.5rem;
-  letter-spacing: 0.0024em;
+  letter-spacing: 0.001em;
 }
 
 .body--small{
-  font: .75rem "Manrope" 500;
-  color: $grey;
+  font: 500 .75rem "Manrope";
   line-height: 1.25rem;
   letter-spacing: 0.015625em;
-
-
 }
