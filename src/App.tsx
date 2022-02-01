@@ -1,22 +1,22 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import "./styles/index.scss";
 import logo from "./assets/images/logo/color-dark.svg";
 
-import Container from "./components/container/Container";
+import Container from "./components/Container/Container";
 import Header from "./components/Header/Header";
 import HeaderSubtitle from "./components/Header/HeaderSubtitle";
 import Tab from "./components/Tab/Tab";
 import TabLink from "./components/Tab/TabLink";
 import TabLogo from "./components/Tab/TabLogo";
 import Grid from "./components/Grid/Grid";
-import SpaceX, { LAUNCH_SITES } from "./data/SpaceX";
+import SpaceX, { LAUNCH_SITES } from "./data/launch/SpaceX";
 
 function App() {
   const [activeTab, setActiveTab] = useState(LAUNCH_SITES[0]);
   const onTabChange = (site: string) => {
     setActiveTab(site);
   };
-  
+
   return (
     <div>
       <Tab>
