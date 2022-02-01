@@ -12,11 +12,11 @@ export default function TabLink({
   onClick,
 }: IProps) {
   return (
-    <div
+    <li
       className={`tab__link body--small ${active ? "tab__link--active" : ""}`}
       onClick={onClick}
     >
       {children}
-    </div>
+    </li>
   );
 }

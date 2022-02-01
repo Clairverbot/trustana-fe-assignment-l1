@@ -8,4 +8,9 @@
   &--col-4{
     grid-template-columns: auto auto auto auto;
   }
+
+  @media screen and (max-width: $sm) {
+  row-gap: 1.5rem;
+  grid-template-columns: auto;
+  }
 }

@@ -5,5 +5,5 @@ interface IProps {
 }
 
 export default function TabLink({ children }: IProps) {
-  return <div className=" tab__right">{children}</div>;
+  return <div className="tab__logo">{children}</div>;
 }
