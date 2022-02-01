@@ -1,20 +1,23 @@
 .tab {
   display: flex;
-  background-color: #fbfcff;
+  background-color: $off-white;
   align-items: center;
   border: 1px solid #e3e3e3;
   
-  &__links {
+  &__link {
     cursor: pointer;
-    padding: 1rem 1.625rem;
+    padding: 1rem 0;
+    min-width: 10rem;
+    text-align: center;
     color: $grey-3;
     border-right: 1px solid #e3e3e3;
+    background-color: white;
     transition: all 0.3s ease;
+    user-select: none;
     &:hover {
       color: $blue;
     }
     &--active {
-      background-color: white;
       color: $blue;
       font-weight: 700;
       position: relative;

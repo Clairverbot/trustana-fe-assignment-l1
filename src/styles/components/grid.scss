@@ -1,0 +1,11 @@
+.grid{
+  display: grid;
+  row-gap: 2.5rem;
+
+  &--col-3{
+    grid-template-columns: auto auto auto;
+  }
+  &--col-4{
+    grid-template-columns: auto auto auto auto;
+  }
+}

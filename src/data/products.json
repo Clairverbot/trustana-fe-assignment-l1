@@ -1,0 +1,27 @@
+{
+  "Korean": [
+    {
+      "id": "1",
+      "name": "Product 1",
+      "qty": "MOQ 20 units",
+      "price": "SGD 4.50/ carton",
+      "img_name": "hot_pepper_paste"
+    },
+    {
+      "id": "2",
+      "name": "Product 2",
+      "qty": "MOQ 20 units",
+      "price": "SGD 4.50/ carton",
+      "img_name": "korean_bbq_sauce"
+    },
+    {
+      "id": "3",
+      "name": "Product 3",
+      "qty": "MOQ 20 units",
+      "price": "SGD 4.50/ carton",
+      "img_name": "spicy_bbq_sauce"
+    }
+  ],
+  "Japanese": [],
+  "Chinese": []
+}
