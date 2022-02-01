@@ -1,12 +1,12 @@
 import React from "react";
 
 type Props = {
-  src: string;
+  src?: string;
 };
-export default function CardImage({src}:Props) {
+export default function CardImage({ src }: Props) {
   return (
     <div className="card__image">
-      <img src={require("../../assets/images/products/"+src+".png")} alt={src}/>
+      {src ? <img src={src} alt={src} /> : <p>🚀</p>}
     </div>
   );
 }

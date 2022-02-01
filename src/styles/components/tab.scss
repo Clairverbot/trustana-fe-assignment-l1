@@ -1,10 +1,11 @@
 .tab {
+  width: 100%;
   display: flex;
   background-color: $off-white;
   align-items: center;
   border: 1px solid #e3e3e3;
   border-top: none;
-  position: sticky;
+  position: fixed;
   top: 0;
   padding: 0;
 
