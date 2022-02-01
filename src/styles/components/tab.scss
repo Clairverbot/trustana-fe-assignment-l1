@@ -3,7 +3,9 @@
   background-color: $off-white;
   align-items: center;
   border: 1px solid #e3e3e3;
-  
+  position: sticky;
+  top: 0;
+
   &__link {
     cursor: pointer;
     padding: 1rem 0;
