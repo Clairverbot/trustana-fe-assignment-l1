@@ -1,12 +1,21 @@
 # Trustana Front-end Engineer Assignment
 
-Built with ReactJS, SCSS and a lot of bak kwa
+Built with ReactJS, SCSS, Yarn and a lot of bak kwa
+
+## Running the project
+
+`yarn install` to install the required dependencies
+
+`yarn start` to run the project
+
+
 
 ## Contents
 
 - [Task 1](https://github.com/Clairverbot/trustana-fe-assignment-l1/tree/task-1) - User Interface
 - [Task 2](https://github.com/Clairverbot/trustana-fe-assignment-l1/tree/task-2) - Mobile Responsiveness
 - [Task 3](https://github.com/Clairverbot/trustana-fe-assignment-l1/tree/task-3) - GraphQL
+- [Main](https://github.com/Clairverbot/trustana-fe-assignment-l1/tree/main) - Consist of the complete assignment (task 3) as well as some minor tweaks (replaced favico and etc.)
 
 ## A note on bonus tasks
 
